@@ -5,6 +5,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+body {
+  padding: 100px;
+}
 
 a {
   color: inherit;
@@ -13,4 +16,56 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.div {
+  height: 150vh;
+}
+.main-container {
+  position: relative;
+}
+.container1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 200vh;
+}
+.row2 {
+  position: absolute;
+  top: calc(100vh + 100px);
+  width: 100%;
+}
+.row3 {
+  position: absolute;
+  top: calc(200vh + 100px);
+  width: 100%;
+}
+.container2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.container3 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: sticky;
+  top: 0;
+}
+.green {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  position: sticky;
+  top: 100px;
+}
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
 }
